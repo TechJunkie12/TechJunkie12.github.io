@@ -16,11 +16,11 @@
     <main>
         <section>
             <h2>Overview</h2>
-            <p>This project is a simple password manager with a GUI interface. It saves passwords that you type in, encrypts them, and displays the decrypted passwords when you tell it to</p>
+            <p>This project is a simple password manager with a GUI interface. It saves passwords that you type in, encrypts them, and displays the decrypted passwords when you tell it to.</p>
         </section>
         <section>
             <h2>Tools Used</h2>
-            <p>This was written in PyCharm and used PyQt5 and QtWidgets. QApplication, QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton, and QTextEdit were all imported and used. Cryptography library was also used, and Fernet was imported. </p>
+            <p>This was written in PyCharm and used PyQt5 and QtWidgets. QApplication, QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton, and QTextEdit were all imported and used. Cryptography library was also used, and Fernet was imported.</p>
         </section>
         <section>
             <h2>Challenges</h2>
@@ -61,7 +61,7 @@ class PasswordManager(QWidget):
         self.password_input = QLineEdit(self)
         layout.addWidget(self.password_input)
 
-        # Connects buttons to functions (line 36 & 40)
+        # Connects buttons to functions
 
         self.save_button = QPushButton('Save Password', self)
         self.save_button.clicked.connect(self.save_password)
@@ -131,12 +131,12 @@ if __name__ == '__main__':
 # Callie Gardunio
 #TechJunkie12
             </code></pre>
-        </section> 
+        </section>
         <section>
             <h2>Output Screenshots</h2>
             <img src="SimplePWManager/Screenshot 1.png" alt="Screenshot of output 1" width="600">
             <img src="SimplePWManager/Screenshot 2.png" alt="Screenshot of output 2" width="600">
-            <img src="SimplePWManager/Screenshot 3.png" alt="Screenshot of output 3" width="600">
+            <img src="SimplePWManager/Screenshot 3.png" alt="Screenshot of output 2" width="600">
         </section>
     </main>
     <footer>
@@ -144,3 +144,4 @@ if __name__ == '__main__':
     </footer>
 </body>
 </html>
+
